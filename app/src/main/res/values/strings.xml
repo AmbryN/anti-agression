@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AntiAgression</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_params_phonenumbertext">Ajoutez le numéro mobile de votre contact d\'urgence :</string>
+    <string name="fragment_alert_text">En cas de danger, l\'appui sur le bouton d\'alerte enverra une alerte avec votre position GPS à votre contact d\'urgence enregistré</string>
+    <string name="fragment_params_wrongnumberformat">Le numéro n\'a pas un format de numéro mobile correct : 0[6-7]XXXXXXXX</string>
+    <string name="fragment_alert_alertmsg">A l\'aide ! Je me fais agresser au </string>
+    <string name="fragment_alert_missing_geocoder">Pas de géocoder disponible !</string>
+    <string name="fragment_alert_address_found">Adresse trouvée !</string>
+    <string name="fragment_alert_address_notfound">ATTENTION : Aucune adresse trouvée !</string>
+    <string name="fragment_alert_no_contact">ATTENTION : Aucun contact enregistré !</string>
+    <string name="alert_dialog_msg">Êtes vous sûr(e) de vouloir déclencher une alerte ?</string>
+    <string name="alert_dialog_yes">OUI</string>
+    <string name="alert_dialog_no">ANNULER</string>
+
+
+    <array name="titlePagesViewPager">
+        <item>Alerter</item>
+        <item>Paramètres</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

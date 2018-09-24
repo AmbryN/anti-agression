@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.antiagression.Fragments.AlertFragment"
+    android:id="@+id/fragment_alert">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="@string/fragment_alert_text"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#FFFFFF"/>
+
+    <ImageButton
+        android:id="@+id/fragment_alert_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#FFF"
+        android:src="@drawable/ic_warning"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp" />
+
+</LinearLayout>

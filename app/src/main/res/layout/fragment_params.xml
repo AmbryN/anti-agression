@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.antiagression.Fragments.ParamsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_params_phonenumbertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_params_phonenumbertext"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_layout_params"
+        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/fragment_params_add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Ajouter un contact"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccentLight"
+        android:textColor="#000"/>
+
+</LinearLayout>
